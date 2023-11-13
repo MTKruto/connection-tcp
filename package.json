@@ -1,0 +1,19 @@
+{
+  "name": "@mtkruto/transport-provider-tcp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist/ && tsc"
+  },
+  "devDependencies": {
+    "@mtkruto/node": "^0.1.111",
+    "@types/node": "^20.9.0",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "async-mutex": "^0.4.0"
+  }
+}
