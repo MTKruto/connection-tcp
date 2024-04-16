@@ -8,10 +8,10 @@
     "build": "rimraf dist/ && tsc"
   },
   "devDependencies": {
-    "@mtkruto/node": "^0.1.111",
-    "@types/node": "^20.9.0",
+    "@mtkruto/node": "^0.1.400",
+    "@types/node": "^20.12.7",
     "rimraf": "^5.0.5",
-    "typescript": "^5.2.2"
+    "typescript": "^5.4.5"
   },
   "dependencies": {
     "async-mutex": "^0.4.0"
